@@ -1,0 +1,24 @@
+import {useEffect} from "react";
+import axios from "axios";
+import {json} from "react-router-dom";
+import styles from "./styles.module.css"
+
+
+export default function Auth() {
+
+    useEffect(() => {
+        axios.get('http://127.0.0.1:8000/api/register', json({
+            body: {
+                username: 'admin',
+                password: 'admin'
+            }
+        }))
+    }, []);
+
+
+    return (
+        <div className={styles.container}>
+
+        </div>
+    )
+}

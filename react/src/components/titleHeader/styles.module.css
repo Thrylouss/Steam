@@ -1,0 +1,61 @@
+.wrapper {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    background: #131721;
+    justify-content: space-between;
+}
+
+.lots {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    padding: 1.5em;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.container div:hover {
+    background: linear-gradient(to bottom, #536932, #779648);
+}
+
+.active {
+    background: linear-gradient(to bottom, #536932, #779648);
+}
+
+.title {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    background: #16202d;
+}
+
+.title p {
+    padding: 1.5em;
+    border-right: 1px solid grey;
+}
+
+.name {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.placed {
+    width: 20%;
+}
+
+.price {
+    width: 10%;
+}

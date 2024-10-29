@@ -1,0 +1,6 @@
+.container {
+    background: linear-gradient(to bottom, #94bf4b, #5a732d);
+    width: 150px;
+    height: 40px;
+    margin: auto 15px;
+}

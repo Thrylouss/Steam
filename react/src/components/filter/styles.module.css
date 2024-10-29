@@ -1,0 +1,56 @@
+.container {
+    width: 40%;
+    height: 350px;
+    background-color: #16202d;
+    padding: 1.5em 0;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    gap: 0.5em;
+}
+
+.inp {
+    height: 35px;
+    background-color: #324965;
+    color: white;
+    font-size: 15px;
+    padding: 0 0.5em;
+    border: none;
+}
+
+.games {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 25px auto;
+    gap: 0.5em;
+}
+
+.game {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0 0.5em;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #31363a, #2b2e34);
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+}
+
+.btn {
+    height: 35px;
+    background-color: #2f3338;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

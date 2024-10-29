@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #131721;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    gap: 1.5em;
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    padding: 0.5em;
+}
+
+.amount {
+    width: 15%;
+}
+
+
+.price {
+    width: 15%;
+}

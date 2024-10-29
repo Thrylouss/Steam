@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    gap: 10px;
+}
+
+.title {
+    display: flex;
+    width: 95%;
+    margin-bottom: 50px;
+    background: #16202d;
+}
+
+.title p {
+    padding: 1.5em;
+    border-right: 1px solid grey;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.amount {
+    width: 15%;
+}
+
+.price {
+    width: 15%;
+}
+
+.wrapper {
+    display: flex;
+
+}
+
+.button {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #16202d;
+    border: none;
+    margin: -15px 30px 15px 0;
+    color: white;
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.pagination button {
+    padding: 1em;
+    background-color: #16202d;
+    border: none;
+    color: white;
+
+}
