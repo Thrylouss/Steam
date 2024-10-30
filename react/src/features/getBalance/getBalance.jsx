@@ -4,7 +4,7 @@ import axios from "axios";
 
 export const getBalance = ({setBalance}) => {
     useEffect(() => {
-        axios.get('http://127.0.0.1:8000/payment-history/')
+        axios.get('https://1.ins.cx/payment-history/')
             .then(res => {
                 // console.log(res.data.results)
             })
