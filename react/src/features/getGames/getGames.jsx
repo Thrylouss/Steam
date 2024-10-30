@@ -6,7 +6,7 @@ export const getGames = () => {
     const [games, setGames] = useState([])
 
     useEffect(() => {
-        axios.get('http://127.0.0.1:8000/games/')
+        axios.get('https://1.ins.cx/games/')
             .then(res => {
                 setGames(res.data.results)
             })
