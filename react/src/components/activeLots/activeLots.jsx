@@ -10,7 +10,7 @@ export default function ActiveLots({isAuth, active}) {
     getLots({setLots, isAuth})
 
     const handleClick = (id) => {
-        axios.delete(`http://127.0.0.1:8000/lots/${id}/`)
+        axios.delete(`https://1.ins.cx/lots/${id}/`)
             .then(res => {
                 setLots(lots.filter(lot => lot.id !== id))
             })
