@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const getUserToken = ({username, password, setAuth}) => {
-    axios.post('http://127.0.0.1:8000/api/login/', {
+    axios.post('https://1.ins.cx/api/login/', {
         username: username,  // здесь можно просто передать username и password
         password: password
     }).then(
