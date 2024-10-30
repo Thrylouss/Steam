@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 export const getItems = ({setItems, page=1, game_id}) => {
-        axios.get(`http://127.0.0.1:8000/items/?page=${page}`)
+        axios.get(`https://1.ins.cx/items/?page=${page}`)
             .then(res => {
                 // console.log(res.data)
                 setItems(res.data.results)
