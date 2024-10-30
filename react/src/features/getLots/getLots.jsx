@@ -8,7 +8,7 @@ export const getLots = ({setLots, isAuth=false})=> {
     useEffect(() => {
         const user_id = parseInt(localStorage.getItem('user_id'))
 
-        axios.get('http://127.0.0.1:8000/lots/')
+        axios.get('https://1.ins.cx/lots/')
             .then(res => {
                 setLots(res.data.results)
                 if (isAuth === false) {
