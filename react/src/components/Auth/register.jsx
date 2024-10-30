@@ -8,7 +8,7 @@ export default function Register({setAuth, setLogged}) {
     const password = useRef()
 
     const handleSubmit = () => {
-            axios.post('http://127.0.0.1:8000/api/register/',{
+            axios.post('https://1.ins.cx/api/register/',{
                 username: username.current.value,
                 password: password.current.value
             }).then(
